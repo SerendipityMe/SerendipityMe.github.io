@@ -1,3 +1,5 @@
+## android在代码中如何修改text的颜色（不限于text）？
+### 主要有以下：
 ```
  tv.setTextColor(Color.parseColor("#000000"));
  tv.setTextColor(getResources().getColor(R.color.black)); //根据资源文件读取颜色
