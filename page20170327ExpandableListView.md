@@ -6,9 +6,10 @@ expande.setAdapter(new expandableAdapter());
 ```
 以下代码可以当内部类或单独文件：
 ```
+
 class expandableAdapter extends BaseExpandableListAdapter{
   private String[] group ={"groupA","groupB","groupC"};
-  private String[][] children = {{"aaa","bbb","ccc"}},{"ddd","eee","fff"},{"ggg","hhh","iii"}};
+  private String[][] children = {{"aaa","bbb","ccc"},{"ddd","eee","fff"},{"ggg","hhh","iii"}};
   public int getGroupCount() {
       return group.length;
   }
@@ -50,4 +51,5 @@ class expandableAdapter extends BaseExpandableListAdapter{
       return true;
   }
 }
+
 ```
