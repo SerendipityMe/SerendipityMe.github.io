@@ -8,7 +8,7 @@ expande.setAdapter(new expandableAdapter());
 ```
 class expandableAdapter extends BaseExpandableListAdapter{
   private String[] group ={"groupA","groupB","groupC"};
-  private String[][] children = {{"aaa","bbb","ccc"},{"ddd","eee","fff"},{"ggg","hhh","iii"}};
+  private String[][] children = {{"aaa","bbb","ccc"}},{"ddd","eee","fff"},{"ggg","hhh","iii"}};
   public int getGroupCount() {
       return group.length;
   }
