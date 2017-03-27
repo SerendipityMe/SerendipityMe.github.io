@@ -3,7 +3,8 @@
 ```在oncreate方法中：
 expande = (ExpandableListView) findViewById(R.id.expandable);
 expande.setAdapter(new expandableAdapter());
-```以下代码可以当内部类或单独文件：
+```
+以下代码可以当内部类或单独文件：
 ```
 class expandableAdapter extends BaseExpandableListAdapter{
   private String[] group ={"groupA","groupB","groupC"};
